@@ -1,0 +1,8 @@
+angular.module("myApp", []);
+
+angular.module("myApp").controller("controller1", function($scope, $log) {
+	$log.info("controller1 init ...");
+	$scope.message = "PonAIENT";
+});
+
+
